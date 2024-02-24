@@ -14,6 +14,8 @@
 		98933E6E2B8A60B60084D6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98933E6D2B8A60B60084D6E9 /* Assets.xcassets */; };
 		98933E712B8A60B60084D6E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98933E702B8A60B60084D6E9 /* Preview Assets.xcassets */; };
 		98933E7C2B8A60B60084D6E9 /* guitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98933E7B2B8A60B60084D6E9 /* guitTests.swift */; };
+		98933E862B8A60D00084D6E9 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98933E852B8A60D00084D6E9 /* ScaleView.swift */; };
+		98933E882B8A69EB0084D6E9 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98933E872B8A69EB0084D6E9 /* SongView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		98933E722B8A60B60084D6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98933E772B8A60B60084D6E9 /* guitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98933E7B2B8A60B60084D6E9 /* guitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guitTests.swift; sourceTree = "<group>"; };
+		98933E852B8A60D00084D6E9 /* ScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
+		98933E872B8A69EB0084D6E9 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				98933E6D2B8A60B60084D6E9 /* Assets.xcassets */,
 				98933E722B8A60B60084D6E9 /* Info.plist */,
 				98933E6F2B8A60B60084D6E9 /* Preview Content */,
+				98933E852B8A60D00084D6E9 /* ScaleView.swift */,
+				98933E872B8A69EB0084D6E9 /* SongView.swift */,
 			);
 			path = guit;
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98933E6A2B8A60B50084D6E9 /* ContentView.swift in Sources */,
+				98933E862B8A60D00084D6E9 /* ScaleView.swift in Sources */,
+				98933E882B8A69EB0084D6E9 /* SongView.swift in Sources */,
 				98933E682B8A60B50084D6E9 /* guitApp.swift in Sources */,
 				98933E6C2B8A60B50084D6E9 /* ImmersiveView.swift in Sources */,
 			);

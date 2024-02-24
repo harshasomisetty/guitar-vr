@@ -13,9 +13,5 @@ struct guitApp: App {
         WindowGroup {
             ContentView()
         }
-
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }
     }
 }
